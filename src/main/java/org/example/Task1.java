@@ -2,7 +2,11 @@ package org.example;
 
 
 //1 4 5
-public class Test1 {
+// нет исключения при делении на ноль вещественных числе
+// иерархия исключений
+
+
+public class Task1 {
     public static void main(String[] args) {
         try {
             double i = 1/0.0;
