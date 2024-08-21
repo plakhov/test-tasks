@@ -11,7 +11,7 @@ public class Task1 {
         try {
             double i = 1/0.0;
             System.out.println("1");
-        } catch (ArithmeticException e) {
+        } catch (RuntimeException e) {
             System.out.println("2");
             throw new RuntimeException();
         } catch (Throwable e) {
