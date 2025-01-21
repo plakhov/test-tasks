@@ -9,6 +9,15 @@ package org.example;
 
 public class ParseHolder {
 
+    /**
+     * Написать класс, который может преобразовать строку вида: "k=v;k1=v1" в словарь.
+     * При это требуется реализовать три метода в этом классе
+     * 0. Преобразование строки (parse)
+     * 1. Получение значения по ключу за O(1) (getValue)
+     * 2. Выдать исходную строку (generateRecord)
+     * Пример входной строке key1=val1;key1=abc;key2=val2;key3=val3;key2=val5;key1=val6
+     */
+
     public void parse(String str) {
 
     }
@@ -21,14 +30,6 @@ public class ParseHolder {
         return null;
     }
 
-    /**
-     * Написать класс, который может преобразовать строку вида: "k=v;k1=v1" в словарь.
-     * При это требуется реализовать три метода в этом классе
-     * 0. Преобразование строки (parse)
-     * 1. Получение значения по ключу за O(1) (getValue)
-     * 2. Выдать исходную строку (generateRecord)
-     * Пример входной строке key1=val1;key1=abc;key2=val2;key3=val3;key2=val5;key1=val6
-     */
     public class Solution {
         public static void main(String args[]) throws Exception {
             String testString = "key1=val1;key1=abc;key2=val2;key3=val3;key2=val5;key1=val6";
